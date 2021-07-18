@@ -1,0 +1,151 @@
+/*Body starts here*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*Header starts here*/
+
+header {
+    background-color: #d0cdcd;
+    padding: 1rem 2vw;
+}
+
+header h1 {
+    margin: 0;
+    color: #E39736;
+}
+
+header p {
+    margin: 0;
+    color: #E39736;
+}
+
+#backtotop {
+    padding: 1rem 2vw;
+}
+
+/* Nav starts here */
+
+nav {
+    background: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    font: 1.1rem;
+    text-decoration: none;
+    color: #E39736;
+    font-weight: 700;
+    display: block;
+    padding: .73rem 2rem;
+}
+
+nav li.active a {
+    background-color: #E39736;
+    color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/*main starts here*/
+
+main {
+    padding: 1rem 2vw;
+    
+}
+
+main h1 {
+    color: #E39736;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+main div#aboutsection {
+    margin: 30rem;
+}
+
+main h2 {
+    color: #E39736;
+    margin-bottom: .8rem;
+    text-align: center;
+}
+
+main p {
+    color: #2c2d2d;
+    margin-bottom: .4rem;
+    text-align: center;
+}
+
+main a {
+    color: #E39736;
+}
+
+
+/*Project section starts here*/
+
+#projects {
+    background-color: black;
+    padding: 5rem;
+    margin: 0 auto;
+}
+
+#projectslink {
+    padding-bottom: 6rem;
+}
+
+div#projectSection {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+figure#planetsSection p {
+    color: #E39736;
+}
+
+figure#speciesSection p {
+    color: #E39736;
+}
+
+
+/*contact us here*/
+
+.contactsection {
+    padding: 9rem;    
+}
+
+#contactus {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+}
+
+/* footer stuff here */
+
+footer {
+    border-top: solid #000 2px;
+    text-align: center;
+    color: black;
+    font-size: .7rem;
+    margin-top: 3rem;
+    padding: 1rem 0;
+}
+footer a {
+    color: #E39736;
+}
+
+
+
